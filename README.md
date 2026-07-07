@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ## Comparison and Evaluation of Quantum-inspired forecasting network
 ## Overview
 
@@ -98,3 +99,7 @@ requirements.txt
 ## Author
 
 Le Duc Minh
+=======
+# quantum-inspired
+This project implements a multilayer perceptron entirely from first principles using NumPy, without machine learning frameworks. The goal is to establish a classical baseline before investigating quantum-inspired feature mappings for forecasting tasks.
+>>>>>>> 68c842675167b122f143938336bdb1e584f9a7fe
