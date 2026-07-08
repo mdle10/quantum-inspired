@@ -87,7 +87,7 @@ def update(parameters, gradients):
 
 X = np.linspace(-2, 2, 200).reshape(-1,1)
 Y = X**2
-for epoch in range(1000):
+for epoch in range(9000):
 
     A2, cache = forward(X, parameters)
     print(A2)
@@ -104,4 +104,5 @@ plt.scatter(X, Y, label="True data")
 plt.plot(X, A2, label="Prediction")
 
 plt.legend()
+plt.savefig("images/regression_demo.png")
 plt.show()
