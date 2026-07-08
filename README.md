@@ -26,61 +26,29 @@ I am doing this project on my own as part of my research portfolio.
 
 ## Current Progress
 
-- [x] I built a network from scratch using NumPy
-
-- [x] I implemented the forward propagation part
-
-- [x] I implemented the backpropagation part
-
-- [x] I implemented the gradient descent part
-
-- [x] I trained the network, on the XOR benchmark and it worked
-
-- [x] I still need to train the network on some regression datasets
-
-- [ ] I still need to add the quantum-inspired feature mapping
-
-- [ ] I still need to see how well the neural network can forecast
-
-- [ ] I still need to do the analysis and write the report
+- [x] Feedforward neural network
+- [x] Backpropagation
+- [x] Gradient descent
+- [x] XOR classification
+- [x] Regression (learning y = x²)
+- [ ] Time-series forecasting
+- [ ] Quantum-inspired feature mapping
+- [ ] Experimental evaluation
 
 ---
 
-## Repository Structure
-
-```
-
-src/
-
-classical_nn.py
-
-train.py
-
-losses.py
-
-optimizers.py
-
-data/
-
-figures/
-
-README.md
-
-requirements.txt
-
-```
-
----
 
 ## Technologies
 
-- I used Python
+- Python
 
-- I used NumPy
+- NumPy
 
-- I used Git
+- Matplotlib
 
-- I used GitHub
+- Git
+
+- GitHub
 
 ---
 
