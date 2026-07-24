@@ -10,10 +10,10 @@ def initialize_parameters(input_size, hidden_size, output_size):
     np.random.seed(42)
 
     parameters = {
-        "W1" : np.random.randn(input_size, hidden_size) * 0.3,
+        "W1" : np.random.randn(input_size, hidden_size) * 0.01,
         "b1" : np.zeros((1, hidden_size)),
 
-        "W2" : np.random.randn(hidden_size,output_size) * 0.3,
+        "W2" : np.random.randn(hidden_size,output_size) * 0.01,
         "b2": np.zeros((1,output_size))
     }
 
